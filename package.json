@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "node": "^17.4.0",
+    "uuid": "^8.3.2"
+  },
+  "name": "note-scribe",
+  "description": "note-scribe is an application that can be used to write and save notes. It uses Express.js on the back end. It saves and retrieves note data from a JSON file.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rebekah818/note-scribe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rebekah818/note-scribe/issues"
+  },
+  "homepage": "https://github.com/Rebekah818/note-scribe#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
