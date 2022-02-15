@@ -8,7 +8,7 @@
   "name": "note-scribe",
   "description": "note-scribe is an application that can be used to write and save notes. It uses Express.js on the back end. It saves and retrieves note data from a JSON file.",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
